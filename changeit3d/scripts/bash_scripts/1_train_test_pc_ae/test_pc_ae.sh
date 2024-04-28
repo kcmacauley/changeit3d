@@ -1,10 +1,10 @@
 ### below we are using the default parameters for
 ### --encoder_conv_layers and --decoder_fc_neurons
 
-python_script=/home/panos/Git_Repos/changeit3d/changeit3d/scripts/train_test_pc_ae.py
-split_file=/home/panos/Git_Repos/changeit3d/changeit3d/data/shapetalk/language/misc/unary_split_rs_2022.csv
-pc_top_dir=/home/panos/Git_Repos/changeit3d/changeit3d/data/shapetalk/point_clouds/scaled_to_align_rendering
-pretrained_model_file=/home/panos/Git_Repos/changeit3d/changeit3d/data/pretrained/pc_autoencoders/pointnet/rs_2022/points_4096/all_classes/scaled_to_align_rendering/08-07-2022-22-23-42/best_model.pt
+python_script=/home/kcmacauley/changeit3d/changeit3d/scripts/train_test_pc_ae.py
+split_file=/home/kcmacauley/changeit3d/changeit3d/data/shapetalk/language/misc/unary_split_rs_2022.csv
+pc_top_dir=/home/kcmacauley/changeit3d/changeit3d/data/shapetalk/point_clouds/scaled_to_align_rendering
+pretrained_model_file=/home/kcmacauley/changeit3d/changeit3d/data/pretrained/pc_autoencoders/pointnet/rs_2022/points_4096/all_classes/scaled_to_align_rendering/08-07-2022-22-23-42/best_model.pt
 log_dir=./test_pc_ae
 
 random_seed=2022

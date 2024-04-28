@@ -1,6 +1,6 @@
-script_file=/home/panos/Git_Repos/changeit3d/changeit3d/scripts/train_change_it_3d.py
+script_file=/home/kcmacauley/changeit3d/changeit3d/scripts/train_change_it_3d.py
 
-top_data_dir=/home/panos/Git_Repos/changeit3d/changeit3d/data
+top_data_dir=/home/kcmacauley/changeit3d/changeit3d/data
 shape_talk_file=$top_data_dir/shapetalk/language/shapetalk_preprocessed_public_version_0.csv
 vocab_file=$top_data_dir/shapetalk/language/vocabulary.pkl
 

@@ -21,8 +21,8 @@ models=(\
     'coupled/idpen_0.1_sc_False')
 
 
-top_data_dir=/home/panos/Git_Repos/changeit3d/changeit3d/data
-script=/home/panos/Git_Repos/changeit3d/changeit3d/scripts/evaluate_change_it_3d.py
+top_data_dir=/home/kcmacauley/changeit3d/changeit3d/data
+script=/home/kcmacauley/changeit3d/changeit3d/scripts/evaluate_change_it_3d.py
 top_model_dir=$top_data_dir/pretrained/changers/pcae_based/all_shapetalk_classes
 gpu_id=1
 

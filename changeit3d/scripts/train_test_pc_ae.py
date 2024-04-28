@@ -32,10 +32,11 @@ device = torch.device("cuda:" + str(args.gpu_id))
 model = describe_pc_ae(args).to(device)
 
 if args.load_pretrained_model:
+    print(args.pretrained_model_file)
     best_epoch = load_state_dicts(args.pretrained_model_file, model=model)
     print('Loading pretrained model @epoch', best_epoch)
     print('Losses for this model/epoch:')
-    for split in ['train', 'val', 'test']:
+    for split in ['test']:
         loss = model.reconstruct(data_loaders[split], device=device)[-1]
         print(split, loss)
 

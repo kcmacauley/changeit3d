@@ -18,12 +18,12 @@ def initialize_and_load_sgf(sgf_code_dir=None, sgf_ae_ui_pkl=None):
     """    
     
     if sgf_code_dir is None:
-       sgf_code_dir = '/home/panos/Git_Repos/ShapeGF'
+       sgf_code_dir = '/home/kcmacauley/ShapeGF'
     
     sys.path.append(sgf_code_dir)
     
     if sgf_ae_ui_pkl is None:
-        sgf_ae_ui_pkl = '/home/panos/Git_Repos/ShapeGF/SGF-latent-interface-pub.pkl'
+        sgf_ae_ui_pkl = '/home/kcmacauley/ShapeGF/SGF-latent-interface-pub.pkl'
     
     try:
         with open(sgf_ae_ui_pkl, "rb") as f:

@@ -1,0 +1,42 @@
+{
+    "batch_size": 32,
+    "data_dir": "/home/kcmacauley/changeit3d/changeit3d/data/custom_vase/point_clouds",
+    "debug": false,
+    "decoder_fc_neurons": [
+        256,
+        256,
+        512
+    ],
+    "decoder_net": "mlp",
+    "deterministic_point_cloud_sampling": false,
+    "do_training": false,
+    "encoder_conv_layers": [
+        32,
+        64,
+        64,
+        128,
+        256
+    ],
+    "encoder_net": "pointnet",
+    "experiment_tag": null,
+    "extract_latent_codes": true,
+    "gpu_id": 0,
+    "init_lr": 0.0005,
+    "load_pretrained_model": true,
+    "log_dir": "/home/kcmacauley/changeit3d/changeit3d/scripts/logs_vase_noise/04-20-2024-18-23-59",
+    "loss_function": "chamfer",
+    "lr_patience": 10,
+    "max_train_epochs": 350,
+    "n_pc_points": 4096,
+    "num_workers": 6,
+    "pretrained_model_file": "/home/kcmacauley/changeit3d/changeit3d/data/pretrained/pc_autoencoders/pointnet/rs_2022/points_4096/all_classes/scaled_to_align_rendering/08-07-2022-22-23-42/best_model.pt",
+    "random_seed": 2022,
+    "restrict_shape_class": [
+        "vase"
+    ],
+    "save_each_epoch": false,
+    "scale_in_u_sphere": false,
+    "split_file": "/home/kcmacauley/changeit3d/changeit3d/data/custom_vase/custom_vase_pc_ae_data.csv",
+    "train_patience": 14,
+    "use_timestamp": true
+}

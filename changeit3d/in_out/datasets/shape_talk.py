@@ -124,7 +124,9 @@ def model_to_file_name(df, model_name_col, object_class_col, dataset_col, top_di
     :return:
     """
     def join_parts(row):
-        return osp.join(top_dir, row[object_class_col], row[dataset_col], row[model_name_col] + ending)
+        # return osp.join(top_dir, row[object_class_col], row[dataset_col], row[model_name_col] + ending)
+        # return osp.join(top_dir, row["model_uid"] + '.npz')
+        return osp.join(top_dir, row["model_uid"])
     return df.apply(join_parts, axis=1)
 
 

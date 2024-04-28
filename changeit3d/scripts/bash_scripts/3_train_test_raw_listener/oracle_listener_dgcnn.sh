@@ -3,8 +3,8 @@
 ## 
 
 random_seed=2023
-script_file=/home/panos/Git_Repos/changeit3d/changeit3d/scripts/train_test_raw_pc_listener.py
-top_data_dir=/home/panos/Git_Repos/changeit3d/changeit3d/data
+script_file=/home/kcmacauley/changeit3d/changeit3d/scripts/train_test_raw_pc_listener.py
+top_data_dir=/home/kcmacauley/changeit3d/changeit3d/data
 shape_talk_file=$top_data_dir/shapetalk/language/misc/shapetalk_preprocessed_public_utters_for_listening_oracle_version_0.csv
 vocab_file=$top_data_dir/shapetalk/language/vocabulary.pkl
 top_pc_dir=$top_data_dir/shapetalk/point_clouds/scaled_to_align_rendering

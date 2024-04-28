@@ -356,7 +356,7 @@ def parse_evaluate_changeit3d_arguments(notebook_options=None, save_args=True):
     parser.add_argument('-pretrained_changeit3d', type=str, required=True, help='string pointing to saved file')    
     parser.add_argument('-top_pc_dir', type=str, required=True, help='top dir location of gt pointclouds')
     
-    parser.add_argument('--restrict_shape_class', type=str, nargs='*', default=['chair', 'table', 'lamp'])        
+    parser.add_argument('--restrict_shape_class', type=str, nargs='*', default=['chair', 'lamp'])        
     parser.add_argument('--pretrained_shape_classifier', type=str, help='if given, will be used to measure '
                                                                         'the Class-Preservation (CP) score.')    
     parser.add_argument('--compute_fpd', default=True, type=str2bool, help='if shape classifier is given and this is True, it will also compute Frechet PointCloud based Distance')

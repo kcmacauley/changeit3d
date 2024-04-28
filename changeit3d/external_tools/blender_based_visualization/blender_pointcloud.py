@@ -31,7 +31,7 @@ import os.path as osp
 
 # This python script is expected to run from the python interpreter associated with the installed blender, so we are in
 # the path this package explicitly:
-sys.path.append('/home/panos/Git_Repos/changeit3d')
+sys.path.append('/home/kcmacauley/changeit3d')
 from changeit3d.external_tools.blender_based_visualization.camera_handling import obj_centered_camera_pos, camPosToQuaternion
 from changeit3d.external_tools.blender_based_visualization.utils import str2bool, check_rgb_value_type
 from changeit3d.external_tools.blender_based_visualization.utils import (swap_axes_of_pointcloud,

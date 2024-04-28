@@ -1,0 +1,127 @@
+2024-04-07 18:24:52,704 - Start training of the Monolithic alternative to ChangeIt3DNet.
+2024-04-07 18:32:56,715 - @epoch-1
+2024-04-07 18:32:56,716 - train/val losses:
+2024-04-07 18:32:56,716 - total_loss      0.00137
+2024-04-07 18:33:04,222 - total_loss      0.00132
+2024-04-07 18:43:01,284 - @epoch-2
+2024-04-07 18:43:01,285 - train/val losses:
+2024-04-07 18:43:01,286 - total_loss      0.00122
+2024-04-07 18:43:09,109 - total_loss      0.00128
+2024-04-07 18:50:26,843 - @epoch-3
+2024-04-07 18:50:26,844 - train/val losses:
+2024-04-07 18:50:26,844 - total_loss      0.00118
+2024-04-07 18:50:34,687 - total_loss      0.00123
+2024-04-07 18:59:12,307 - @epoch-4
+2024-04-07 18:59:12,308 - train/val losses:
+2024-04-07 18:59:12,308 - total_loss      0.00115
+2024-04-07 18:59:20,163 - total_loss      0.00124
+2024-04-07 18:59:20,163 - * validation loss did not improved *
+2024-04-07 19:06:39,235 - @epoch-5
+2024-04-07 19:06:39,236 - train/val losses:
+2024-04-07 19:06:39,236 - total_loss      0.00112
+2024-04-07 19:06:46,979 - total_loss      0.00122
+2024-04-07 19:12:42,776 - @epoch-6
+2024-04-07 19:12:42,778 - train/val losses:
+2024-04-07 19:12:42,778 - total_loss      0.00110
+2024-04-07 19:12:50,748 - total_loss      0.00122
+2024-04-07 19:17:23,768 - @epoch-7
+2024-04-07 19:17:23,769 - train/val losses:
+2024-04-07 19:17:23,769 - total_loss      0.00108
+2024-04-07 19:17:31,894 - total_loss      0.00122
+2024-04-07 19:22:05,139 - @epoch-8
+2024-04-07 19:22:05,141 - train/val losses:
+2024-04-07 19:22:05,141 - total_loss      0.00107
+2024-04-07 19:22:13,331 - total_loss      0.00125
+2024-04-07 19:22:13,331 - * validation loss did not improved *
+2024-04-07 19:28:25,438 - @epoch-9
+2024-04-07 19:28:25,442 - train/val losses:
+2024-04-07 19:28:25,442 - total_loss      0.00106
+2024-04-07 19:28:33,987 - total_loss      0.00123
+2024-04-07 19:28:33,987 - * validation loss did not improved *
+2024-04-07 19:34:27,482 - @epoch-10
+2024-04-07 19:34:27,483 - train/val losses:
+2024-04-07 19:34:27,483 - total_loss      0.00104
+2024-04-07 19:34:35,455 - total_loss      0.00122
+2024-04-07 19:34:35,456 - * validation loss did not improved *
+2024-04-07 19:39:08,350 - @epoch-11
+2024-04-07 19:39:08,352 - train/val losses:
+2024-04-07 19:39:08,352 - total_loss      0.00103
+2024-04-07 19:39:16,438 - total_loss      0.00125
+2024-04-07 19:39:16,438 - * validation loss did not improved *
+2024-04-07 19:45:13,048 - @epoch-12
+2024-04-07 19:45:13,050 - train/val losses:
+2024-04-07 19:45:13,050 - total_loss      0.00102
+2024-04-07 19:45:21,087 - total_loss      0.00121
+2024-04-07 19:52:35,641 - @epoch-13
+2024-04-07 19:52:35,643 - train/val losses:
+2024-04-07 19:52:35,643 - total_loss      0.00101
+2024-04-07 19:52:43,615 - total_loss      0.00124
+2024-04-07 19:52:43,615 - * validation loss did not improved *
+2024-04-07 20:01:30,025 - @epoch-14
+2024-04-07 20:01:30,027 - train/val losses:
+2024-04-07 20:01:30,027 - total_loss      0.00100
+2024-04-07 20:01:37,743 - total_loss      0.00123
+2024-04-07 20:01:37,743 - * validation loss did not improved *
+2024-04-07 20:07:34,835 - @epoch-15
+2024-04-07 20:07:34,836 - train/val losses:
+2024-04-07 20:07:34,836 - total_loss      0.00099
+2024-04-07 20:07:42,790 - total_loss      0.00125
+2024-04-07 20:07:42,791 - * validation loss did not improved *
+2024-04-07 20:13:39,660 - @epoch-16
+2024-04-07 20:13:39,662 - train/val losses:
+2024-04-07 20:13:39,662 - total_loss      0.00099
+2024-04-07 20:13:47,268 - total_loss      0.00125
+2024-04-07 20:13:47,269 - * validation loss did not improved *
+2024-04-07 20:21:02,617 - @epoch-17
+2024-04-07 20:21:02,619 - train/val losses:
+2024-04-07 20:21:02,619 - total_loss      0.00098
+2024-04-07 20:21:10,542 - total_loss      0.00123
+2024-04-07 20:21:10,542 - * validation loss did not improved *
+2024-04-07 20:21:10,543 - Validation loss did not improve for 5 consecutive epochs. Training is stopped.
+2024-04-07 20:21:10,543 - Training is done!
+2024-04-07 20:21:10,593 - per-validation optimal epoch 12
+2024-04-14 11:42:43,462 - Start training of the Monolithic alternative to ChangeIt3DNet.
+2024-04-14 11:51:02,706 - Loading pretrained model @epoch 12
+2024-04-14 11:51:02,707 - Start training of the Monolithic alternative to ChangeIt3DNet.
+2024-04-14 11:53:21,680 - Loading pretrained model @epoch 12
+2024-04-14 11:54:15,736 - Chamfer Distance (all pairs), Average: 0.831
+2024-04-14 11:54:15,737 - Chamfer Distance (all pairs), Average, per class:
+2024-04-14 11:54:15,737 -    shape_class  holistic-chamfer
+0     airplane             0.344
+1          bag             0.914
+2      bathtub             0.823
+3          bed             0.695
+4        bench             0.765
+5    bookshelf             1.132
+6       bottle             0.633
+7         bowl             0.682
+8      cabinet             1.225
+9          cap             1.287
+10       chair             0.762
+11       clock             0.833
+12     display             0.888
+13     dresser             1.062
+14      faucet             1.156
+15   flowerpot             1.237
+16      guitar             0.181
+17      helmet             0.613
+18       knife             0.301
+19        lamp             1.325
+20         mug             0.556
+21      person             0.907
+22      pistol             0.262
+23       plant             1.051
+24    scissors             0.437
+25  skateboard             0.275
+26        sofa             0.633
+27       table             0.853
+28    trashbin             0.682
+29        vase             1.108
+2024-04-14 11:56:03,149 - Restricting to class(es) ['[vase,', 'lamp]']. Total utterances: 0
+2024-04-14 11:56:49,132 - Restricting to class(es) ['vase', 'lamp']. Total utterances: 67028
+2024-04-14 11:56:51,621 - Loading pretrained model @epoch 12
+2024-04-14 11:56:54,026 - Chamfer Distance (all pairs), Average: 1.278
+2024-04-14 11:56:54,026 - Chamfer Distance (all pairs), Average, per class:
+2024-04-14 11:56:54,026 -   shape_class  holistic-chamfer
+0        lamp             1.325
+1        vase             1.108

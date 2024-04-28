@@ -1,0 +1,28 @@
+{
+    "batch_size": 1024,
+    "clean_train_val_data": false,
+    "compute_fpd": true,
+    "evaluate_retrieval_version": false,
+    "experiment_tag": null,
+    "gpu_id": 0,
+    "latent_codes_file": "/home/kcmacauley/changeit3d/changeit3d/data/pretrained/shape_latents/pcae_latent_codes.pkl",
+    "log_dir": "/home/kcmacauley/changeit3d/changeit3d/scripts/logs_eval",
+    "n_sample_points": 2048,
+    "num_workers": 10,
+    "pretrained_changeit3d": "/home/kcmacauley/changeit3d/changeit3d/data/pretrained/changers/pcae_based/all_shapetalk_classes/coupled/idpen_0.1_sc_False/best_model.pt",
+    "pretrained_oracle_listener": null,
+    "pretrained_shape_classifier": null,
+    "pretrained_shape_generator": "/home/kcmacauley/changeit3d/changeit3d/data/pretrained/pc_autoencoders/pointnet/rs_2022/points_4096/all_classes/scaled_to_align_rendering/08-07-2022-22-23-42/best_model.pt",
+    "random_seed": 2022,
+    "restrict_shape_class": [
+        "vase"
+    ],
+    "save_reconstructions": false,
+    "shape_generator_type": "pcae",
+    "shape_part_classifiers_top_dir": null,
+    "shape_talk_file": "/home/kcmacauley/changeit3d/changeit3d/data/shapetalk/language/shapetalk_preprocessed_public_version_0.csv",
+    "sub_sample_dataset": null,
+    "top_pc_dir": "/home/kcmacauley/changeit3d/changeit3d/data/shapetalk/point_clouds/scaled_to_align_rendering",
+    "use_timestamp": false,
+    "vocab_file": "/home/kcmacauley/changeit3d/changeit3d/data/shapetalk/language/vocabulary.pkl"
+}

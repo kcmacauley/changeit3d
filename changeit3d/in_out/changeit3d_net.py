@@ -56,6 +56,8 @@ def prepare_input_data(args, logger=None):
         msg = 'Restricting to class(es) {}. Total utterances: {}'.format(args.restrict_shape_class, len(df))
         _print(msg)
 
+    print(df)
+
     # Last remove training/val stimuli for which the source (distractor) 
     # shape wins the comparison against the ground-truth target i.e., the listener is wrong here.
     if args.clean_train_val_data:

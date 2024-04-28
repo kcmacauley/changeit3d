@@ -2,8 +2,8 @@
 ## Default arguments per in_out/arguments/parse_train_test_latent_listener_arguments will be used
 ## 
 
-script_file=/home/panos/Git_Repos/changeit3d/changeit3d/scripts/train_test_latent_listener.py
-top_data_dir=/home/panos/Git_Repos/changeit3d/changeit3d/data
+script_file=/home/kcmacauley/changeit3d/changeit3d/scripts/train_test_latent_listener.py
+top_data_dir=/home/kcmacauley/changeit3d/changeit3d/data
 shape_talk_file=$top_data_dir/shapetalk/language/shapetalk_preprocessed_public_version_0.csv
 vocab_file=$top_data_dir/shapetalk/language/vocabulary.pkl
 

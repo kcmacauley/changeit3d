@@ -125,6 +125,7 @@ def prepare_vanilla_pointcloud_datasets(args):
         split_df.reset_index(inplace=True, drop=True)
 
     split_df['file_name'] = model_to_file_name(split_df, 'model_name', 'object_class', 'dataset', args.data_dir, '.npz')
+    print(split_df['file_name'][0])
     assert split_df['file_name'].apply(osp.exists).all(), 'files/models in the split file should exist on the hard drive!'
 
     # Add class-label-to-idx
@@ -143,10 +144,12 @@ def prepare_vanilla_pointcloud_datasets(args):
 
     datasets = dict()
     example_cnt = 0
-    for split in ['train', 'test', 'val']:
+    # for split in ['train', 'test', 'val']:
+    for split in ['test']:
         split_data = split_df[split_df.split == split].copy()
         split_data.reset_index(drop=True, inplace=True)
-        split_pcs = np.array(parallel_apply(split_data.file_name, partial(pc_loader_from_npz, only_pc=True)))
+        # split_pcs = np.array(parallel_apply(split_data.file_name, partial(pc_loader_from_npz, only_pc=True)))
+        split_pcs = np.array(split_data.file_name.apply(pc_loader_from_npz))
         pc_sampling_random_seed = None
         if args.deterministic_point_cloud_sampling or split in ['test', 'val']:
             pc_sampling_random_seed = args.random_seed

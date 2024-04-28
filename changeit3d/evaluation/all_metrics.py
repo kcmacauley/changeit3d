@@ -77,6 +77,8 @@ def run_all_metrics(transformed_shapes, gt_pcs, gt_classes, sentences, vocab, ar
     #############################################
     scale_chamfer_by = 1000
     batch_size_for_cd = 2048
+    torch.cuda.empty_cache()
+
     for cmp_with in [gt_pcs]:
         holistic_cd_mu, holistic_cds = chamfer_dists(cmp_with, transformed_shapes,
                                                     bsize=min(len(transformed_shapes), batch_size_for_cd), 
@@ -93,6 +95,7 @@ def run_all_metrics(transformed_shapes, gt_pcs, gt_classes, sentences, vocab, ar
         results_on_metrics['Chamfer_all_pairs_average'] = score
         results_on_metrics['Chmafer_all_pairs_per_class'] = score_per_class
 
+    # return results_on_metrics
 
     #############################################
     # Test-2: LAB

@@ -6,9 +6,9 @@
 ### new listener, against a listener trained on the same train/test splits but using a latent representation. 
 ### The expectation is that the end2end oracle should be better performing.
 
-script_file=/home/panos/Git_Repos/changeit3d/changeit3d/scripts/train_test_latent_listener.py
+script_file=/home/kcmacauley/changeit3d/changeit3d/scripts/train_test_latent_listener.py
 
-top_data_dir=/home/panos/Git_Repos/changeit3d/changeit3d/data
+top_data_dir=/home/kcmacauley/changeit3d/changeit3d/data
 shape_talk_file=$top_data_dir/shapetalk/language/misc/shapetalk_preprocessed_public_utters_for_listening_oracle_version_0.csv
 vocab_file=$top_data_dir/shapetalk/language/vocabulary.pkl
 
