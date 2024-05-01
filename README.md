@@ -7,7 +7,7 @@ Please visit our [project website](https://kcmacauley.github.io/changeit3d/) for
 This is the project repo of the ShapeShifters UW-Madison CS766 Class Project. This repo contains forked code from the original [changeit3d repo](https://github.com/optas/changeit3d) in addition to code developed specifically for this project. 
 
 ## Installation
-Please flow the installation of the original [changeit3d repo](https://github.com/optas/changeit3d?tab=readme-ov-file#installation).
+Please flow the installation of the original and install the **Chamfer Loss Submodule** [changeit3d repo](https://github.com/optas/changeit3d?tab=readme-ov-file#installation).
 
 **Note:** in order to use the python scripts used in generating the custom vase dataset you will need to install [open3d](https://www.open3d.org/).
 
