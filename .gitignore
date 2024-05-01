@@ -23,8 +23,7 @@
 changeit3d/data/shapetalk/*
 changeit3d/data/pretrained/*
 changeit3d/data/aux_language/*
-changeit3d/data/custom_vase/*
-changeit3d/data/seg_shapetalk/*
+changeit3d/data/seg_shapetalk/*   
 changeit3d/data/noise_shapetalk/*
 
 changeit3d/losses/*

@@ -1,0 +1,7 @@
+model_uid,object_class,dataset,model_name,split
+vase/vase_01.npz,vase,CustomVase,vase_01.npz,test
+vase/vase_02.npz,vase,CustomVase,vase_02.npz,test
+vase/vase_03.npz,vase,CustomVase,vase_03.npz,test
+vase/vase_04.npz,vase,CustomVase,vase_04.npz,test
+vase/vase_05.npz,vase,CustomVase,vase_05.npz,test
+vase/vase_0288.npz,vase,ModelNet,vase/vase_0288.npz,test
