@@ -23,7 +23,10 @@
 changeit3d/data/shapetalk/*
 changeit3d/data/pretrained/*
 changeit3d/data/aux_language/*
-changeit3d/data/seg_shapetalk/point_clouds/*   
+changeit3d/data/seg_shapetalk/point_clouds/chair/*   
+changeit3d/data/seg_shapetalk/point_clouds/lamp/*   
+changeit3d/data/seg_shapetalk/point_clouds/segmented_chair/*
+changeit3d/data/seg_shapetalk/point_clouds/segmented_lamp/*   
 changeit3d/data/noise_shapetalk/*
 
 changeit3d/losses/*
