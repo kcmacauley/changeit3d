@@ -17,6 +17,14 @@ Also, install the [pretrained weights](https://github.com/optas/changeit3d?tab=r
 
 ## Run An Example
 
+First you need to install the following dataset folders into `changeit3d/data/seg_shapetalk/point_clouds/`:
+ 
+ - [chair](https://drive.google.com/drive/folders/1CN_2YQcfustc_GMiwDXLRZeKf5D1kMJO?usp=drive_link)
+ - [lamp](https://drive.google.com/drive/folders/1BoL0QChCe9chLj4ItfwqV3oE0c3Slr1M?usp=drive_link)
+ - [segmented_chair](https://drive.google.com/drive/folders/1qgYMANYQUzQ9sU1uhx0oJ-wxLORY4IUG?usp=drive_link) 
+ - [segmented_lamp](https://drive.google.com/drive/folders/13VuJuqg5PNDtGvZg6rIfApH9EAVZ3n2s?usp=drive_link)
+
+
 In order to reproduce results from the Part Removal experiment please run: 
 
 [looking_inside_c3d_trained_system_seg.ipynb](https://github.com/kcmacauley/changeit3d/blob/main/changeit3d/notebooks/change_it_nets/looking_inside_c3d_trained_system_seg.ipynb)
