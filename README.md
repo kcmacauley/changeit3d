@@ -5,12 +5,13 @@ Please visit our [project website](https://roettges.github.io/shapeshifter_CS766
 
 ## Overview
 This is repo is a part of the ShapeShifters UW-Madison CS766 Class Project.
-This repo contains forked code from the original [changeit3d repo](https://github.com/optas/changeit3d) in addition to code developed specifically for this project. 
-Also checkout our [main repository](https://github.com/Auc7us/shapeshifters) that contains all the training, visualisations, and evaluation scripts for our experiments "Strength of Changeit3D to Gaussian Noise on Point Clouds" and "Robustness of ChangeIt3D to varying language instructions"  
-This repos contains important modules required to run the scripts on our main repo; please clone them into the same parent directory.
+This repo contains forked code from the original [changeit3d repo](https://github.com/optas/changeit3d) in addition to code developed specifically for this project. This fork contains important modules required to run the scripts on our main repo.  
+  
+Our [main repository](https://github.com/Auc7us/shapeshifters) contains all the training, visualisations, and evaluation scripts for our experiments "Strength of Changeit3D to Gaussian Noise on Point Clouds" and "Robustness of ChangeIt3D to varying language instructions". Follow the [instructions on the main repo](https://github.com/Auc7us/shapeshifters/blob/main/README.md#dependencies) to clone all repos into the right directories. 
+
 
 ## Installation
-Please flow the installation of the original and install the **Chamfer Loss Submodule** [changeit3d repo](https://github.com/optas/changeit3d?tab=readme-ov-file#installation).
+Please follow the installation of the original and install the **Chamfer Loss Submodule** [changeit3d repo](https://github.com/optas/changeit3d?tab=readme-ov-file#installation).
 
 **Note:** in order to use the python scripts used in generating the custom vase dataset you will need to install [open3d](https://www.open3d.org/).
 
