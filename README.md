@@ -1,10 +1,13 @@
 # ShapeShifters UW-Madison CS766 Class Project
 
 ## Project Website
-Please visit our [project website](https://kcmacauley.github.io/changeit3d/) for more information about the project and the experiments conducted. 
+Please visit our [project website](https://roettges.github.io/shapeshifter_CS766/) for more information about the project and the experiments conducted. 
 
 ## Overview
-This is the project repo of the ShapeShifters UW-Madison CS766 Class Project. This repo contains forked code from the original [changeit3d repo](https://github.com/optas/changeit3d) in addition to code developed specifically for this project. 
+This is repo is a part of the ShapeShifters UW-Madison CS766 Class Project.
+This repo contains forked code from the original [changeit3d repo](https://github.com/optas/changeit3d) in addition to code developed specifically for this project. 
+Also checkout our main repository that contains all the training, visualisations, and evaluation scripts for our experiments "Strength of Changeit3D to Gaussian Noise on Point Clouds" and "Robustness of ChangeIt3D to varying language instructions"  
+This repos contains important modules required to run the scripts on our main repo; please clone them into the same parent directory.
 
 ## Installation
 Please flow the installation of the original and install the **Chamfer Loss Submodule** [changeit3d repo](https://github.com/optas/changeit3d?tab=readme-ov-file#installation).
@@ -33,4 +36,3 @@ To compare with the monolithic network results please run:
 
 [looking_inside_monolithic_trained_system_seg.ipynb](https://github.com/kcmacauley/changeit3d/blob/main/changeit3d/notebooks/change_it_nets/looking_inside_monolithic_trained_system_seg.ipynb)
 
-**Note:** you will need to update paths from '/home/kcmacauley/ to where ever you installed the changeit3d repo. 
