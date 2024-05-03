@@ -6,7 +6,7 @@ Please visit our [project website](https://roettges.github.io/shapeshifter_CS766
 ## Overview
 This is repo is a part of the ShapeShifters UW-Madison CS766 Class Project.
 This repo contains forked code from the original [changeit3d repo](https://github.com/optas/changeit3d) in addition to code developed specifically for this project. 
-Also checkout our main repository that contains all the training, visualisations, and evaluation scripts for our experiments "Strength of Changeit3D to Gaussian Noise on Point Clouds" and "Robustness of ChangeIt3D to varying language instructions"  
+Also checkout our [main repository](https://github.com/Auc7us/shapeshifters) that contains all the training, visualisations, and evaluation scripts for our experiments "Strength of Changeit3D to Gaussian Noise on Point Clouds" and "Robustness of ChangeIt3D to varying language instructions"  
 This repos contains important modules required to run the scripts on our main repo; please clone them into the same parent directory.
 
 ## Installation
