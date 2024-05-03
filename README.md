@@ -36,3 +36,4 @@ To compare with the monolithic network results please run:
 
 [looking_inside_monolithic_trained_system_seg.ipynb](https://github.com/kcmacauley/changeit3d/blob/main/changeit3d/notebooks/change_it_nets/looking_inside_monolithic_trained_system_seg.ipynb)
 
+**Note:** The paths in these two files are relative to the file location. (They assume that python's path is the same as that of the .ipynb file)
